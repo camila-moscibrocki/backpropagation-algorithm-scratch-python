@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97525c8-a216-4411-99c1-01d817948398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/previsão.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seeds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/seeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wheat-seeds.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
       <recent name="C:\Pycharm\lcc_rodas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.previsão">
+  <component name="RunManager" selected="Python.seeds">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LCC -rodas" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,8 +81,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="seeds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LCC -rodas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seeds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.seeds" />
         <item itemvalue="Python.previsão" />
         <item itemvalue="Python.main" />
       </list>
@@ -115,31 +136,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="186" key="GridCell.Tab.0.bottom" timestamp="1583166744845">
+    <state width="949" height="497" key="GridCell.Tab.0.bottom" timestamp="1583241169375">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="186" key="GridCell.Tab.0.bottom/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583166744845" />
-    <state width="1899" height="186" key="GridCell.Tab.0.center" timestamp="1583166744844">
+    <state width="949" height="186" key="GridCell.Tab.0.bottom/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583168065520" />
+    <state width="949" height="497" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.-1083.1366.768/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583241169375" />
+    <state width="949" height="497" key="GridCell.Tab.0.center" timestamp="1583241169375">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="186" key="GridCell.Tab.0.center/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583166744844" />
-    <state width="1899" height="186" key="GridCell.Tab.0.left" timestamp="1583166744844">
+    <state width="949" height="186" key="GridCell.Tab.0.center/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583168065520" />
+    <state width="949" height="497" key="GridCell.Tab.0.center/0.0.1280.720/1920.-1083.1366.768/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583241169375" />
+    <state width="949" height="497" key="GridCell.Tab.0.left" timestamp="1583241169375">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="186" key="GridCell.Tab.0.left/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583166744844" />
-    <state width="1899" height="186" key="GridCell.Tab.0.right" timestamp="1583166744845">
+    <state width="949" height="186" key="GridCell.Tab.0.left/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583168065520" />
+    <state width="949" height="497" key="GridCell.Tab.0.left/0.0.1280.720/1920.-1083.1366.768/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583241169375" />
+    <state width="949" height="497" key="GridCell.Tab.0.right" timestamp="1583241169375">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="186" key="GridCell.Tab.0.right/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583166744845" />
+    <state width="949" height="186" key="GridCell.Tab.0.right/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583168065520" />
+    <state width="949" height="497" key="GridCell.Tab.0.right/0.0.1280.720/1920.-1083.1366.768/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583241169375" />
     <state x="461" y="-897" key="SettingsEditor" timestamp="1582638766265">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="461" y="-897" key="SettingsEditor/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1582638766265" />
-    <state x="506" y="-801" key="com.intellij.ide.util.TipDialog" timestamp="1583152095628">
+    <state x="506" y="-801" key="com.intellij.ide.util.TipDialog" timestamp="1583234459652">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="506" y="-801" key="com.intellij.ide.util.TipDialog/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.-1080.1920.1080" timestamp="1583152095628" />
     <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720/0.-1080.1920.1080/1920.-1083.1366.768@0.0.1280.720" timestamp="1582636546749" />
-    <state x="506" y="-801" key="com.intellij.ide.util.TipDialog/0.0.1280.720/1920.-1083.1366.768/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1582716075909" />
+    <state x="506" y="-801" key="com.intellij.ide.util.TipDialog/0.0.1280.720/1920.-1083.1366.768/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1583234459652" />
   </component>
 </project>
